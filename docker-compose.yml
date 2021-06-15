@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  mariadb:
+    image: mariadb:10.3
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+
+  php:
+    build:
+      context: .
+      dockerfile: php-node.dockerfile
+    volumes:
+      - ./:/opt/drupal
