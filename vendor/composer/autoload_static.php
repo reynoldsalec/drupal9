@@ -131,6 +131,7 @@ class ComposerStaticInita7fefd447f58b6bcd59503d0fbf3ecc1
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'Prophecy\\PhpUnit\\' => 17,
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
@@ -444,6 +445,10 @@ class ComposerStaticInita7fefd447f58b6bcd59503d0fbf3ecc1
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Prophecy\\PhpUnit\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpspec/prophecy-phpunit/src',
         ),
         'Prophecy\\' => 
         array (
@@ -770,6 +775,7 @@ class ComposerStaticInita7fefd447f58b6bcd59503d0fbf3ecc1
 
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Drupal' => __DIR__ . '/../..' . '/web/core/lib/Drupal.php',
         'DrupalFinder\\DrupalFinder' => __DIR__ . '/..' . '/webflo/drupal-finder/src/DrupalFinder.php',
         'DrupalProject\\composer\\ScriptHandler' => __DIR__ . '/../..' . '/scripts/composer/ScriptHandler.php',
